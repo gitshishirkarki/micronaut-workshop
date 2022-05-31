@@ -1,0 +1,16 @@
+<Configuration name="Log4jConfiguration"
+	strict="true" schema="Log4J-V2.0.xsd">
+	<Appenders>
+		 <SMTP name="Mail" subject="Error Log" to="skarki2@gmail.com"
+	from="skarki2@gmail.com" smtpHost="smtp.gmail.com" smtpPort="587"
+	bufferSize="50" smtpPassword="xxx" ignoreExceptions="false"
+	smtpUsername="skarki2@gmail.com" smtpProtocol="smtp">
+    </SMTP>
+	</Appenders>
+
+	<Loggers>
+		<Root level="error">
+			<AppenderRef ref="Mail" />
+		</Root>
+	</Loggers>
+</Configuration>
