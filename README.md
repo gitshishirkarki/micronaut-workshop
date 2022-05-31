@@ -26,4 +26,7 @@ views-themeleaf
 2. use gradle boot tool command to start the project
 	1. ./gradlew run
 
+## References
+### YOUTUBE
+- https://youtu.be/5gTO_f70hLM
 	
